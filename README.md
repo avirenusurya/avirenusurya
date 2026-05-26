@@ -4,7 +4,7 @@ I'm a Data Science undergrad at IIT Madras (Diploma level), based in Hyderabad. 
 
 🏆 Top 2% of 40,000+ participants at the India AI Impact Buildathon (GUVI x HCL), where my team went on to finish in the Top 20.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-c2410c?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-omega-one.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-c2410c?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-omega-one-nydmtuefnm.vercel.app)
 [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/avirenusurya/)
 [![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/avirenusurya)
 ![Open to AI Engineer roles](https://img.shields.io/badge/Open_to-AI_Engineer_roles-2EA44F?style=for-the-badge)
