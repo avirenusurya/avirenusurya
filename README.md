@@ -4,6 +4,7 @@ I'm a Data Science undergrad at IIT Madras (Diploma level), based in Hyderabad. 
 
 🏆 Top 2% of 40,000+ participants at the India AI Impact Buildathon (GUVI x HCL), where my team went on to finish in the Top 20.
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-c2410c?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-omega-one.vercel.app)
 [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/avirenusurya/)
 [![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/avirenusurya)
 ![Open to AI Engineer roles](https://img.shields.io/badge/Open_to-AI_Engineer_roles-2EA44F?style=for-the-badge)
@@ -15,7 +16,7 @@ I'm a Data Science undergrad at IIT Madras (Diploma level), based in Hyderabad. 
 | Project | What it is | Stack | Links |
 |---|---|---|---|
 | **SafeWaves** | Multi-threat cyber-defense platform with 6 detectors: phishing, malicious URL, deepfake image, prompt injection, behavior anomaly, and AI-generated content. Every verdict ships with a 3-layer explanation (SHAP attribution, a Gemini-written reason, and the key factors behind the score), plus adversarial robustness checks. | FastAPI · scikit-learn · SHAP · Gemini · React | [Live](https://safewaves.vercel.app) · [API docs](https://safewaves-api.onrender.com/docs) · [Code](https://github.com/avirenusurya/safewaves) |
-| **SafeWaves Voice** | API that decides whether a voice clip is AI-generated or human across 5 Indian languages, and returns a confidence score with a short reason. Built at the India AI Impact Buildathon. | FastAPI · PyTorch · Transformers | [Live](https://huggingface.co/spaces/avirenusurya/VoiceDetection) · [Code](https://github.com/avirenusurya/safewaves-voice) |
+| **SafeWaves Voice** | API that decides whether a voice clip is AI-generated or human across 5 languages (Tamil, English, Hindi, Malayalam, Telugu), and returns a confidence score with a short reason. Built at the India AI Impact Buildathon. | FastAPI · PyTorch · wav2vec2 XLS-R | [Live](https://huggingface.co/spaces/avirenusurya/VoiceDetection) · [Code](https://github.com/avirenusurya/safewaves-voice) |
 | **Folio** | Study dashboard with a focus timer, study heatmap, habit streaks, journaling, and a realtime "Society" leaderboard. | React · Supabase (Postgres, Realtime, Edge Functions) | [Live](https://folio-kohl-one.vercel.app) · [Code](https://github.com/avirenusurya/folio) |
 
 ## Tech I work with
