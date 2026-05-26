@@ -15,7 +15,7 @@ I'm a **BS in Data Science** student at **IIT Madras** (Diploma level), based in
 |---|---|---|---|
 | **SafeWaves** | Multi-threat AI cyber-defense platform — 6 threat detectors (phishing, malicious URL, deepfake, prompt injection, behavior anomaly, AI-content) with a 3-layer **explainable-AI** pipeline (SHAP attribution + Gemini explanations) and adversarial robustness testing. | FastAPI · scikit-learn · SHAP · Gemini · React | [Live](https://safewaves.vercel.app) · [API docs](https://safewaves-api.onrender.com/docs) · [Code](https://github.com/avirenusurya/safewaves) |
 | **SafeWaves Voice** | API-first system that classifies a voice clip as **AI-generated or human** across 5 Indian languages, with a confidence score and explanation. *India AI Impact Buildathon finalist.* | FastAPI · PyTorch · Transformers | [Code](https://github.com/avirenusurya/safewaves-voice) <!-- add live demo link when ready --> |
-| **Folio** | "A quiet ledger for serious study" — focus timer, study heatmap, habit streaks, journaling, and a realtime social "Society" leaderboard. | React · Supabase (Postgres, Realtime, Edge Functions) | [Code](https://github.com/avirenusurya/folio) <!-- add live demo link when ready --> |
+| **Folio** | "A quiet ledger for serious study" — focus timer, study heatmap, habit streaks, journaling, and a realtime social "Society" leaderboard. | React · Supabase (Postgres, Realtime, Edge Functions) | [Live](https://folio-kohl-one.vercel.app) · [Code](https://github.com/avirenusurya/folio) |
 
 ## 🛠️ Tech I work with
 
