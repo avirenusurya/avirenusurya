@@ -1,13 +1,19 @@
-# Hi, I'm Surya 👋
+<div align="center">
 
-I'm a Data Science undergrad at IIT Madras (Diploma level), based in Hyderabad. I like building AI products end to end and shipping each one with a live link. Model, API, frontend, deploy, I want my hands on the whole thing. Lately most of that time has gone to LLM agents, RAG, tool calling, and evals.
+# Surya
 
-🏆 Top 2% of 40,000+ participants at the India AI Impact Buildathon (GUVI x HCL), where my team went on to finish in the Top 20.
+**Data Science undergrad at IIT Madras. I build AI products end to end and ship each one with a live link.**
+
+Model, API, frontend, deploy. Lately most of that time goes to LLM agents, RAG, tool calling, and evals.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-c2410c?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-omega-one-nydmtuefnm.vercel.app)
 [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/avirenusurya/)
 [![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/avirenusurya)
 ![Open to AI Engineer roles](https://img.shields.io/badge/Open_to-AI_Engineer_roles-2EA44F?style=for-the-badge)
+
+</div>
+
+🏆 **Top 2% of 40,000+** participants at the India AI Impact Buildathon (GUVI x HCL), where my team went on to finish in the Top 20.
 
 ---
 
@@ -15,9 +21,10 @@ I'm a Data Science undergrad at IIT Madras (Diploma level), based in Hyderabad. 
 
 | Project | What it is | Stack | Links |
 |---|---|---|---|
-| **SafeWaves** | Multi-threat cyber-defense platform with 6 detectors: phishing, malicious URL, deepfake image, prompt injection, behavior anomaly, and AI-generated content. Every verdict ships with a 3-layer explanation (SHAP attribution, a Gemini-written reason, and the key factors behind the score), plus adversarial robustness checks. | FastAPI · scikit-learn · SHAP · Gemini · React | [Live](https://safewaves.vercel.app) · [API docs](https://safewaves-api.onrender.com/docs) · [Code](https://github.com/avirenusurya/safewaves) |
-| **SafeWaves Voice** | API that decides whether a voice clip is AI-generated or human across 5 languages (Tamil, English, Hindi, Malayalam, Telugu), and returns a confidence score with a short reason. Built at the India AI Impact Buildathon. | FastAPI · PyTorch · wav2vec2 XLS-R | [Live](https://huggingface.co/spaces/avirenusurya/VoiceDetection) · [Code](https://github.com/avirenusurya/safewaves-voice) |
-| **Folio** | Study dashboard with a focus timer, study heatmap, habit streaks, journaling, and a realtime "Society" leaderboard. | React · Supabase (Postgres, Realtime, Edge Functions) | [Live](https://folio-kohl-one.vercel.app) · [Code](https://github.com/avirenusurya/folio) |
+| **SafeWaves** | Multi-threat cyber-defense platform. Six ML detectors (phishing, malicious URL, deepfake image, prompt injection, login anomaly, AI-text), each verdict with a SHAP attribution, a Gemini-written reason, and key factors, plus adversarial robustness checks. | FastAPI · scikit-learn · SHAP · Gemini · React | [Live](https://safewaves.vercel.app) · [API](https://safewaves-api.onrender.com/docs) · [Code](https://github.com/avirenusurya/safewaves) |
+| **docs-agent** | Agentic RAG assistant for developer docs. Rewrites the question, retrieves, reranks with a cross-encoder, and answers with citations and a per-step trace. An eval harness measures the reranker (recall@5 0.88 to 0.96). | FastAPI · React · pgvector · cross-encoder · evals | [Code](https://github.com/avirenusurya/docs-agent) |
+| **SafeWaves Voice** | Decides whether a voice clip is AI-generated or human across five languages (Tamil, English, Hindi, Malayalam, Telugu), with a confidence score and a short reason. | FastAPI · PyTorch · wav2vec2 XLS-R | [Live](https://huggingface.co/spaces/avirenusurya/VoiceDetection) · [Code](https://github.com/avirenusurya/safewaves-voice) |
+| **Folio** | Study dashboard: focus timer, study heatmap, habit streaks, journaling, and a realtime "Society" leaderboard. | React · Supabase | [Live](https://folio-kohl-one.vercel.app) · [Code](https://github.com/avirenusurya/folio) |
 
 ## Tech I work with
 
@@ -57,8 +64,6 @@ I'm a Data Science undergrad at IIT Madras (Diploma level), based in Hyderabad. 
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-_Also working with RAG, prompt engineering, tool calling, and eval harnesses._
-
 ## Now
 
-Building an agentic RAG system from scratch: a retrieval pipeline with a cross-encoder reranker, an eval harness to measure whether changes actually help, and a trace view for debugging what the agent did at each step.
+Deploying docs-agent (Supabase pgvector, Render, Vercel) and tightening its retrieval evals.
