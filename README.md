@@ -13,8 +13,6 @@ Model, API, frontend, deploy. Lately most of that time goes to LLM agents, RAG, 
 
 </div>
 
-🏆 **Top 2% of 40,000+** participants at the India AI Impact Buildathon (GUVI x HCL), where my team went on to finish in the Top 20.
-
 ---
 
 ## Featured projects
@@ -63,6 +61,10 @@ Model, API, frontend, deploy. Lately most of that time goes to LLM agents, RAG, 
 ![Render](https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+## Achievements
+
+- Top 2% of 40,000+ participants at the India AI Impact Buildathon (GUVI x HCL), where my team went on to finish in the Top 20.
 
 ## Now
 
