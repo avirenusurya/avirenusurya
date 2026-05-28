@@ -20,7 +20,7 @@ Model, API, frontend, deploy. Lately most of that time goes to LLM agents, RAG, 
 | Project | What it is | Stack | Links |
 |---|---|---|---|
 | **SafeWaves** | Multi-threat cyber-defense platform. Six ML detectors (phishing, malicious URL, deepfake image, prompt injection, login anomaly, AI-text), each verdict with a SHAP attribution, a Gemini-written reason, and key factors, plus adversarial robustness checks. | FastAPI · scikit-learn · SHAP · Gemini · React | [Live](https://safewaves.vercel.app) · [API](https://safewaves-api.onrender.com/docs) · [Code](https://github.com/avirenusurya/safewaves) |
-| **docs-agent** | Agentic RAG assistant for developer docs. Rewrites the question, retrieves, reranks with a cross-encoder, and answers with citations and a per-step trace. An eval harness measures the reranker (recall@5 0.88 to 0.96). | FastAPI · React · pgvector · cross-encoder · evals | [Code](https://github.com/avirenusurya/docs-agent) |
+| **docs-agent** | Agentic RAG assistant for developer docs. Rewrites the question, retrieves, reranks with a cross-encoder, and answers with citations and a per-step trace. An eval harness measures the reranker (recall@5 0.88 to 0.96). | FastAPI · React · pgvector · cross-encoder · evals | [Live](https://docs-agent-wine.vercel.app) · [Code](https://github.com/avirenusurya/docs-agent) |
 | **SafeWaves Voice** | Decides whether a voice clip is AI-generated or human across five languages (Tamil, English, Hindi, Malayalam, Telugu), with a confidence score and a short reason. | FastAPI · PyTorch · wav2vec2 XLS-R | [Live](https://huggingface.co/spaces/avirenusurya/VoiceDetection) · [Code](https://github.com/avirenusurya/safewaves-voice) |
 | **Folio** | Study dashboard: focus timer, study heatmap, habit streaks, journaling, and a realtime "Society" leaderboard. | React · Supabase | [Live](https://folio-kohl-one.vercel.app) · [Code](https://github.com/avirenusurya/folio) |
 
@@ -68,4 +68,4 @@ Model, API, frontend, deploy. Lately most of that time goes to LLM agents, RAG, 
 
 ## Now
 
-Deploying docs-agent (Supabase pgvector, Render, Vercel) and tightening its retrieval evals.
+Shipped docs-agent on Supabase pgvector + Render + Vercel ([live](https://docs-agent-wine.vercel.app)). Tightening its retrieval evals next.
